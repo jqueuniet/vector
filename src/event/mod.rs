@@ -25,7 +25,7 @@ pub(crate) use util::log::PathIter;
 pub use value::Value;
 
 pub mod proto {
-    include!(concat!(env!("OUT_DIR"), "/event.proto.rs"));
+    include!(concat!(env!("OUT_DIR"), "/event.rs"));
 }
 
 pub const PARTIAL: &str = "_partial";
